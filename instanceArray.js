@@ -39,5 +39,10 @@ console.log('Lenny\'s infromation is: ' + players[2].name +' '+ players[2].email
 console.log('All my users names are ');
 //Now loop through your users Array and console.log every users name. 
 
-  for (var i = 0; i < players.length; i++)
-      console.log(players[i].name);
+  
+for (var i = 0; i < players.length; i++) {
+    console.log(players[i].name);
+}
+
+for (var i = 0; i <quiz.length; i++) {
+    console.log(quiz[i].title);
